@@ -15,7 +15,7 @@ jobs:
       - name: Setup Node.js
         users: actions/setup-node@v3
 
-      - name: installnstall Dependencies
+      - name: Install Dependencies
         run : npm install
 
       - name : Run Tests
